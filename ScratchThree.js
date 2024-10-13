@@ -29,7 +29,7 @@ class ScratchThree {
     }
 	
 	sceneMenu() {
-		return this.scenes.map((_, index) => index.toString());
+		return this.scenes.map((_, index) => {return {text: "Scene " + index.toString(), value: index.toString()}});
 	}
 		
     getInfo() {
