@@ -23,7 +23,7 @@ class ScratchThree {
 			
 			
 			
-			// IMPORTAN! Always execute at the end!
+			// IMPORTANT! Always execute at the end!
 			this.ready = true;
 		}
     }
@@ -44,7 +44,7 @@ class ScratchThree {
 				{
 					opcode: "resetAll",
 					blockType: Scratch.BlockType.COMMAND,
-					text: "reset all" // Might change to a reset [DROPDOWN] in the future!
+					text: "reset all" // Might change to a reset [DROPDOWN:All/Objects/Materials/Scenes/Geometries] in the future!
 				},
 				{
                     opcode: 'check',
