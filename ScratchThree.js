@@ -267,10 +267,6 @@ class ScratchThree {
 						"TorusGeometry",
 						"TorusKnotGeometry",
 					]
-				},
-				SCENE_MENU: {
-					acceptReporters: true,
-					items: this.sceneMenu.bind(this)
 				}
 			}
         };
