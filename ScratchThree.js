@@ -27,10 +27,6 @@ class ScratchThree {
 			this.ready = true;
 		}
     }
-	
-	sceneMenu() {
-		return this.scenes.map((_, index) => index.toString());
-	}
 		
     getInfo() {
         return {
@@ -72,8 +68,7 @@ class ScratchThree {
 							defaultValue: "background"
 						},
 						SCENE: {
-							type: Scratch.ArgumentType.STRING,
-							menu: "SCENE_MENU"
+							type: Scratch.ArgumentType.NUMBER
 						},
 						VAL: {
 							type: Scratch.ArgumentType.STRING,
@@ -201,8 +196,7 @@ class ScratchThree {
 							type: Scratch.ArgumentType.STRING
 						},
 						SCENE: {
-							type: Scratch.ArgumentType.STRING,
-							menu: "SCENE_MENU"
+							type: Scratch.ArgumentType.NUMBER
 						}
 					}
 				},
@@ -234,8 +228,7 @@ class ScratchThree {
 							type: Scratch.ArgumentType.STRING
 						},
 						SCENE: {
-							type: Scratch.ArgumentType.STRING,
-							menu: "SCENE_MENU"
+							type: Scratch.ArgumentType.NUMBER
 						}
 					}
 				}
